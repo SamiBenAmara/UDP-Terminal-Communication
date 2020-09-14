@@ -4,11 +4,12 @@ This is C program that I built for an assignment from my operating systems cours
 ## How it works
 Open two terminals, either on the same machine, or different machines on the same network. On each machine, compile the program with the 'make' command, then enter this command into both terminals:
 
-######./s-talk <My Machine's Port> <Remote Machine Name> <Remote Port Number>
+./s-talk <My Machine's Port> <Remote Machine Name> <Remote Port Number>
+	
 Then send messages from one terminal, and watch them pop up on another!
 You can also send the outputs of the terminals to a file using:
 
-######./s-talk <myPortNumber> <remoteMachineName> <remotePortNumber> >> testFile.txt
+./s-talk <myPortNumber> <remoteMachineName> <remotePortNumber> >> testFile.txt
 
 What works: 
 
